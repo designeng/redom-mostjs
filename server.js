@@ -6,8 +6,8 @@ var app = express();
 app.use(compression());
 app.use(express.static('public'));
 
-app.listen(8080, function (err) {
+app.listen(3003, function (err) {
   if (err) throw err;
 
-  console.log('RE:DOM dev running, browse to http://localhost:8080');
+  console.log('RE:DOM dev running, browse to http://localhost:3003');
 });
