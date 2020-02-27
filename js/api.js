@@ -5,7 +5,6 @@ export const api = (app) => {
     const store = new Store();
     let updating;
 
-    // Application logic:
     listen(app, {
     	hello (subject) {
     	    set('hello.subject', subject);
