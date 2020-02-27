@@ -1,7 +1,7 @@
 {
   "name": "redom-mostjs",
   "version": "0.0.1",
-  "description": "RE:DOM example project",
+  "description": "redom-mostjs experiment project",
   "main": "server.js",
   "private": true,
   "scripts": {
@@ -24,6 +24,7 @@
     "stylus": "~0.54.5"
   },
   "dependencies": {
+    "@most/core": "^1.5.0",
     "compression": "~1.7.3",
     "express": "~4.16.4"
   }
